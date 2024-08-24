@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-// Set CYPRESS_COMMAND_DELAY above zero for demoing to stakeholders,
+// Set CYPRESS_COMMAND_DELAY above zero for demo to stakeholders,
 // E.g. CYPRESS_COMMAND_DELAY=1000 node_modules/.bin/cypress open
 const COMMAND_DELAY = Cypress.env('COMMAND_DELAY') || 0;
 if (COMMAND_DELAY > 0) {
@@ -40,3 +40,9 @@ if (COMMAND_DELAY > 0) {
         });
     }
 } 
+
+// FakerJS for dummy robust data
+Cypress.Commands.add('faker', () => {
+    const { faker } = require('@faker-js/faker');
+    return faker;
+});

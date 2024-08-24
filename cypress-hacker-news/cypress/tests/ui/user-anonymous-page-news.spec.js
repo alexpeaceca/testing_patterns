@@ -1,3 +1,6 @@
+import { faker } from "@faker-js/faker"
+
+
 describe('User - Anonymous - Page - News', { tags: ['user-anonymous', 'page-news'] }, () => {
 
   /**
@@ -443,18 +446,22 @@ describe('User - Anonymous - Page - News', { tags: ['user-anonymous', 'page-news
   // it.only('Footer - Contact - redirect', { tags: 'page-news-210' }, () => {})
 
   it('Footer - Search - input', { tags: 'page-news-211' }, () => {
+    let searchTerm = faker.word.words({ count: { min: 1, max: 10 } })
     /** Given */
     cy.visit('/')
     cy.get('tbody')
       .find('form[action="//hn.algolia.com/"]')
       .contains(('Search: '))
       .find('input')
-      .type('Valid Search Term')
+      .type(searchTerm)
       /** When */
       .type('{enter}')
     /** Then */
-    cy.origin('https://hn.algolia.com', () => {
-      cy.url().should('include', 'https://hn.algolia.com/?q=Valid+Search+Term')
+    cy.origin('https://hn.algolia.com', { args: { searchTerm } } , (searchTerm) => {
+      let searchTermUrlEncode = searchTerm.searchTerm.replace(new RegExp(" ", "g"), '+')
+      cy.log(searchTerm)
+      cy.log(searchTermUrlEncode)
+      cy.url().should('include', 'https://hn.algolia.com/?q=' + searchTermUrlEncode)
     })
   })
 })
