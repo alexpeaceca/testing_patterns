@@ -1,4 +1,5 @@
 const { defineConfig } = require("cypress");
+require('dotenv').config()
 
 module.exports = defineConfig({
   e2e: {
@@ -13,8 +14,23 @@ module.exports = defineConfig({
     specPattern: "cypress/tests/**/*.spec.{js,jsx,ts,tsx}"
   },
   env: {
+    /**
+     * API
+     */
+    apiUrl: "https://hacker-news.firebaseio.com/v0",
     /** 2000ms delay between page visits due to rate limitations */
-    COMMAND_DELAY: 2000
+    COMMAND_DELAY: 2000,
+    /**
+     * Users
+     */
+    USER_BASIC: process.env.USER_BASIC,
+    USER_BASIC_PASS: process.env.USER_BASIC_PASS,
+    /**
+     * Test Data
+     */
+    // News API
+    NEWSAPI_API_KEY: process.env.NEWSAPI_API_KEY
+
   },
   retries: {
     runMode: 2,

@@ -41,7 +41,7 @@ if (COMMAND_DELAY > 0) {
     }
 } 
 
-// FakerJS for dummy robust data
+// FakerJS for robust dummy data
 Cypress.Commands.add('faker', () => {
     const { faker } = require('@faker-js/faker');
     return faker;
