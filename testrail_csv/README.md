@@ -1,1 +1,1 @@
-[(https://github.com/alexpeaceca/testing_patterns/blob/main/testrail_csv/screenshot.png)]
+![alt text](https://github.com/alexpeaceca/testing_patterns/blob/main/testrail_csv/screenshot.png)
