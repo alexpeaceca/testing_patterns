@@ -1,3 +1,4 @@
 # Automation Test and Testcase Sample Repo
 
-## Overview
+##
+![alt text](https://github.com/alexpeaceca/testing_patterns/blob/main/assets/cypress-sample.gif)
