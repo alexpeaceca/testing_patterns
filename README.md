@@ -1,4 +1,4 @@
-## Test Patterns: Test Case and Automation Examples
+## Testing Patterns: Test Case and Automation Examples
 
 🛠 Built with [React][reactjs], [XState][xstate], [Express][express], [lowdb][lowdb], [Material-UI][material-ui] and [TypeScript][typescript]
 ⚡️ Zero database dependencies
