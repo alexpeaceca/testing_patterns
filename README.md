@@ -23,6 +23,9 @@
 >   - Provide information to stakeholders to allow them to make informed decisions
 >   - Build confidence in the quality of the test object
 >   - Validate the test object is complete and works as stakeholders expect it to
+>
+> - The context of testing will vary, depending upon the project 
+> - The concepts of testing are the same
 
 
 
