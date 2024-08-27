@@ -3,7 +3,7 @@
 ## Cypress
 ![alt text](https://github.com/alexpeaceca/testing_patterns/blob/main/assets/cypress-sample.gif)
 
-Cypress: Best Practices, References, Sources of Truth
+Best Practices, References, Sources of Truth:
 
 >  💻 [Cypress e2e Test Suite written by Cypress Dev Team](https://github.com/cypress-io/cypress-realworld-app)
 >
