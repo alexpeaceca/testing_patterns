@@ -46,8 +46,8 @@
 
 ## Cypress
 ![alt text](https://github.com/alexpeaceca/testing_patterns/blob/main/assets/cypress-sample.gif)
-#### Example Cypress Suite covering Hacker News
-> [alexpeaceca/cypress-hacker-news](https://github.com/alexpeaceca/testing_patterns/tree/main/cypress-hacker-news](https://news.ycombinator.com/)
+#### Example Cypress Test Suite covering Hacker News
+> 🤖 [alexpeaceca / cypress-hacker-news](https://github.com/alexpeaceca/testing_patterns/tree/main/cypress-hacker-news)
 
 #### Best Practices, References, Sources of Truth:
 
