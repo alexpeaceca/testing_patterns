@@ -4,7 +4,7 @@
 ## Foundation and Philosophy
 
 ![alt text](https://istqb-main-web-prod.s3.amazonaws.com/media/original_images/ctfl_4_0.png)
-> 📚 [2023 (current) Software and System Testing Standards](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf)
+> 📚 [ISTBQ 2023 (current) Software and System Testing Standards](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf)
 >
 > Key Concepts:
 >
