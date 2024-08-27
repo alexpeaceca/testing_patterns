@@ -15,14 +15,14 @@
 >
 > - Quality Assurance Engineers (modern)
 >   - Evaluate work products such as requirements, timelines, user stories, designs, and code 
->   - Trigger failures and find defects
 >   - Ensure required coverage of the complete end to end test object
 >   - Reduce the level of risk of inadequate software quality (reduce risk, not ensure perfection)
 >   - Verify requirements have been fulfilled
 >   - Verify the test object complies with contractual, legal, and regulatory requirements
 >   - Provide information to stakeholders to allow them to make informed decisions
 >   - Build confidence in the quality of the test object
->   - Validate the test object is complete and works as stakeholders expect it to
+>   - Validate the test object is complete and works as the stakeholders expect it to
+>   - ... and also trigger failures and find defects
 >
 > - The context of testing will vary, depending upon the project 
 > - The concepts of testing are the same
@@ -46,8 +46,8 @@
 
 ## Cypress
 ![alt text](https://github.com/alexpeaceca/testing_patterns/blob/main/assets/cypress-sample.gif)
-#### Example Cypress Suite covering hacknews.org
-> []([https://github.com/alexpeaceca/testing_patterns/tree/main/cypress-hacker-news](https://news.ycombinator.com/))
+#### Example Cypress Suite covering Hacker News
+> [alexpeaceca/cypress-hacker-news](https://github.com/alexpeaceca/testing_patterns/tree/main/cypress-hacker-news](https://news.ycombinator.com/)
 
 #### Best Practices, References, Sources of Truth:
 
